@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.venkateshsivaraj.mindtrick"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.venkateshsivaraj.mindtrick.Screen1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.venkateshsivaraj.mindtrick.Screen2" >
+            <intent-filter>
+                <action android:name="com.example.venkateshsivaraj.mindtrick.Screen2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.venkateshsivaraj.mindtrick.Screen3" >
+            <intent-filter>
+                <action android:name="com.example.venkateshsivaraj.mindtrick.Screen3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.venkateshsivaraj.mindtrick.Screen4" >
+            <intent-filter>
+                <action android:name="com.example.venkateshsivaraj.mindtrick.Screen4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.venkateshsivaraj.mindtrick.Screen5" >
+            <intent-filter>
+                <action android:name="com.example.venkateshsivaraj.mindtrick.Screen5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.venkateshsivaraj.mindtrick.Screen6" >
+            <intent-filter>
+                <action android:name="com.example.venkateshsivaraj.mindtrick.Screen6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.venkateshsivaraj.mindtrick.Screen7" >
+            <intent-filter>
+                <action android:name="com.example.venkateshsivaraj.mindtrick.Screen7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.venkateshsivaraj.mindtrick.Screen8" >
+            <intent-filter>
+                <action android:name="com.example.venkateshsivaraj.mindtrick.Screen8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
